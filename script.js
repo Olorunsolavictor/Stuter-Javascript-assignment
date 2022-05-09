@@ -3,17 +3,17 @@ function printSum() {
     let myArray = [15, 32, 20, 4, 35];
     let sum = 0;
     for (let i = 0; i < myArray.length; i++)
-    {sum += myArray[i];}
+    sum += myArray[i];
     console.log(sum)
 
 }
 printSum()
 
-/*question 2*/
+/*question 2 */
 
 let a = [3, 8, 5]
 let b = [1, 6, 9]
-
+function comparePoint(){
 let aScore = 0;
 let bScore = 0;
 let finalScore = [];
@@ -33,6 +33,9 @@ else if (a[i] > b[i]) {
 finalScore.push('Alice\'s ' + 'score' + ': ' + aScore);
 finalScore.push('Bob\'s ' + 'score' + ': ' + bScore);
 console.log(finalScore);
+}
+
+comparePoint()
 
 
 /*question 3 */
